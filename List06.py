@@ -6,6 +6,20 @@ def main(list1):
     Returns:
         list: return answer
     """
-    list1[0]==True
+    if list1[0] == 1 :
+        list1[0] = True 
+    if list1[1] == 1 :
+        list1[1] = True
+    if list1[2] == 1 :
+        list1[2] = True 
+    if list1[3] == 1 :
+        list1[3] = True
+    if list1[4] == 1 :
+        list1[4] = True
+    
+    
+    
+    
     return list1
-print(main([1,0,0,0,0,0,0])) 
+
+print(main([1,0,0,1,1]))
