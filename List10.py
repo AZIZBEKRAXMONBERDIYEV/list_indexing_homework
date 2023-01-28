@@ -6,4 +6,7 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    s=list_num[0]
+
+    return s
+print(main([1,2,3,4,4,6,544,32,]))
